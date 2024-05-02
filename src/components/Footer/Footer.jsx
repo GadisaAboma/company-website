@@ -66,8 +66,8 @@ class Footer extends Component {
               </a>
             </li>
             <li>
-              <a href="mailto:lormail@gmail.com" className="text">
-                Email: lormail@gmail.com
+              <a href="mailto:higa6038@gmail.com" className="text">
+                Email: higa6038@gmail.com
               </a>
             </li>
           </ul>

@@ -6,7 +6,7 @@
 }
 .container__header .contact {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
 }
 .container__header .contact a {
