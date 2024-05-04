@@ -8,13 +8,16 @@ class Footer extends Component {
     return (
       <footer id="contact" className="container footer__container">
         <div className="about">
-          <h3>LOGO</h3>
+          <h3>HIGA</h3>
           <p className="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste saepe
-            voluptatum repellat placeat aperiam. Molestiae consectetur molestias
-            magni laudantium doloremque!
+            Highlighting our IT company's tailored solutions, we specialize in
+            leveraging cutting-edge technologies like AI and cloud computing to
+            meet diverse client needs. With a commitment to seamless integration
+            and round-the-clock support, we prioritize client satisfaction.
+            Success stories and case studies underscore our ability to deliver
+            tangible results, distinguishing us in a competitive market!
           </p>
-          <ul className="footer__socials">
+          {/* <ul className="footer__socials">
             <li>
               <a href="#">
                 <AiFillFacebook />
@@ -30,24 +33,29 @@ class Footer extends Component {
                 <AiFillTwitterSquare />
               </a>
             </li>
-          </ul>
+          </ul> */}
         </div>
         <div className="services">
           <h3>Services</h3>
           <ul>
             <li>
               <a href="#" className="text">
-                Cyber Security
+                Application Development
               </a>
             </li>
             <li>
               <a href="#" className="text">
-                IT COnsultant
+                IT COnsultantation
               </a>
             </li>
             <li>
               <a href="#" className="text">
-                Strategy & Research
+                Application Deployment
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text">
+                SEO Optimization
               </a>
             </li>
           </ul>
@@ -55,19 +63,24 @@ class Footer extends Component {
         <div className="contact">
           <h3>Contact</h3>
           <ul>
-            <li>
+            {/* <li>
               <address className="text">
                 Office: 232 California Road Imperial
               </address>
-            </li>
+            </li> */}
             <li>
-              <a href="tel:+212698584458" className="text">
-                Tel : +212698584458
+              <a href="tel:+251967436185" className="text">
+                Tel : +251967436185
               </a>
             </li>
             <li>
-              <a href="mailto:lormail@gmail.com" className="text">
-                Email: lormail@gmail.com
+              <a href="tel:+251930605974" className="text">
+                Tel : +251930605974
+              </a>
+            </li>
+            <li>
+              <a href="mailto:higa6038@gmail.com" className="text">
+                Email: higa6038@gmail.com
               </a>
             </li>
           </ul>

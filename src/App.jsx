@@ -18,7 +18,7 @@ class App extends Component {
         <Services />
         <Portfolio />
         <Testimonials />
-        <News />
+        {/* <News /> */}
         <Banner />
         <Footer />
       </div>

@@ -8,7 +8,7 @@ class Header extends Component {
       <header>
         <div className="container container__header">
           <Contact />
-          <Socials />
+          {/* <Socials /> */}
         </div>
       </header>
     );

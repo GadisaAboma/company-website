@@ -7,7 +7,7 @@ class About extends Component {
   constructor() {
     super();
     this.state = {
-      percentage: 75
+      percentage: 75,
     };
   }
   render() {
@@ -17,10 +17,12 @@ class About extends Component {
           <div>
             <h1>Advance Innovation For IT Solutions</h1>
             <p className="text">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos
-              eligendi molestiae ex harum, sed animi at aliquam quaerat odit
-              repudiandae dicta veniam, beatae aliquid, voluptatum nostrum saepe
-              doloribus excepturi. Facere!
+              At Advance Innovation For IT Solutions, we are committed to
+              redefining the technological landscape by providing cutting-edge
+              IT solutions tailored to meet modern business needs. Our team of
+              skilled engineers and consultants leverages the latest
+              advancements in technology to design and implement scalable,
+              secure, and robust solutions.
             </p>
             <div className="about__buttons">
               <button className="btn btn-primary">Get In Touch</button>
