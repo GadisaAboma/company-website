@@ -2,7 +2,9 @@ import { Component } from "react";
 import Work from "./Work_box";
 import "./style.css";
 import kabba from "../../assets/kabba.png";
-import edl from "../../assets/edl.png";
+import edl from "../../assets/edl.png"; 
+import gojo from "../../assets/gojo.png";
+import drummroll from "../../assets/drummroll.png";
 class Portfolio extends Component {
   constructor() {
     super();
@@ -13,7 +15,7 @@ class Portfolio extends Component {
         text: "A single platform that seamlessly connects users with convenient transportation services and efficient delivery solutions. Our taxi hailing feature provides a hassle-free and reliable way for users to book a ride anytime, anywhere. Whether they need a quick trip to the office, a ride to the airport, or a convenient mode of transportation for any other purpose, our app has them covered. Our app also includes a robust delivery service, allowing users to send and receive packages with utmost convenience. Whether it's a document, a package, or even groceries, our dedicated delivery fleet is at the users' service",
       },
       {
-        img: "https://i.pinimg.com/originals/80/a1/17/80a1173fb50fe01bac507532338eb336.png",
+        img: gojo,
         title: "Gojo Ethiopian Dating app",
         text: "Gojo is a streamlined dating app designed to help users find romantic partners effectively. Featuring an intuitive swipe mechanism, users can quickly express interest and engage with compatible matches. With robust messaging, Gojo ensures safe and meaningful interactions, making it easier to find love or friendship",
       },
@@ -23,7 +25,7 @@ class Portfolio extends Component {
         text: "The aim of this project is to develop a robust and user-friendly mobile application that caters to carpooling services in Addis Ababa, serving both children or school transport service and the general public. By leveraging the power of technology and innovative features, the application seeks to revolutionize the way people commute and share rides in the city.",
       },
       {
-        img: "https://i.pinimg.com/originals/56/ae/76/56ae76f7bc1b3e0edc962cea1af7035f.png",
+        img: drummroll,
         title: "Drumm Roll Center Of Children",
         text: "Drumm Roll is a transportation app by Drumm Farm Center for Children, providing safe and convenient transportation for young adults experiencing homelessness. The user-friendly app allows independent booking of essential appointments, empowering youth with responsibility. Volunteer drivers ensure reliable and cost-effective transportation for school, medical appointments, and more.",
       },
