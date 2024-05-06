@@ -45,10 +45,9 @@ class Intro extends Component {
           <div className="services__intro__text">
             <h1>We are the solutions for IT problems</h1>
             <p className="text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ipsam
-              asperiores voluptatibus sequi officiis minus? Eligendi explicabo
-              sequi esse a unde ducimus omnis iure odit dolores, labore tenetur
-              totam inventore eveniet dolorem.
+            Welcome to our company, where we specialize in providing comprehensive IT solutions.
+             With our expertise and dedication, we aim to address your technology challenges 
+             and help your business thrive in the digital world.
             </p>
             <button className="btn btn-primary">More About</button>
           </div>
