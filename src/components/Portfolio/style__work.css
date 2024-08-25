@@ -2,14 +2,18 @@
   box-shadow: var(--box-shadow);
   border-radius: var(--radius);
   padding: 1rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
   cursor: pointer;
 }
 .portfolio__work img {
   border-radius: var(--radius);
-  object-fit: cover;
+
+  /* object-fit: cover; */
   display: block;
-  width: 100%;
-  height: 17rem;
+  width: auto;
+  height: 19rem;
 }
 
 .portfolio__work h2 {

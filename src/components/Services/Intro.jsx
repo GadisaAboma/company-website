@@ -23,7 +23,7 @@ class Intro extends Component {
             className="services__intro__miniSlider"
             spaceBetween={30}
             pagination={{
-              clickable: true
+              clickable: true,
             }}
             modules={[Pagination]}
           >
@@ -31,13 +31,13 @@ class Intro extends Component {
               <div className="icon">
                 <BiBrain />
               </div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>For any IT related problems</p>
             </SwiperSlide>
             <SwiperSlide>
               <div className="icon">
                 <BiBrain />
               </div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>We bring you a solution!</p>
             </SwiperSlide>
           </Swiper>
         </div>
@@ -45,9 +45,10 @@ class Intro extends Component {
           <div className="services__intro__text">
             <h1>We are the solutions for IT problems</h1>
             <p className="text">
-            Welcome to our company, where we specialize in providing comprehensive IT solutions.
-             With our expertise and dedication, we aim to address your technology challenges 
-             and help your business thrive in the digital world.
+              Welcome to our company, where we specialize in providing
+              comprehensive IT solutions. With our expertise and dedication, we
+              aim to address your technology challenges and help your business
+              thrive in the digital world.
             </p>
             <button className="btn btn-primary">More About</button>
           </div>

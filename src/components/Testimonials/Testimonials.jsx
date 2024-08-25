@@ -9,7 +9,7 @@ class Testimonials extends Component {
   constructor() {
     super();
     this.state = {
-      slidesPerView: 2.5
+      slidesPerView: 2.5,
     };
     this.fitSlidesPerView = this.fitSlidesPerView.bind(this);
   }
@@ -30,27 +30,28 @@ class Testimonials extends Component {
     window.addEventListener("resize", this.fitSlidesPerView);
 
     return (
-      <section id="testimony" className="container container__testimonials">
-        <h1 className="container">What People Say About Us</h1>
-        <Swiper
-          className="testimonials__slide container"
-          slidesPerView={this.state.slidesPerView}
-          spaceBetween={20}
-        >
-          <SwiperSlide>
-            <Testimony img="https://reviews.tn/wp-content/uploads/2021/05/original-profile-picture-ideas-man_31.jpg" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Testimony img="https://reviews.tn/wp-content/uploads/2021/05/original-profile-picture-ideas-man_31.jpg" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Testimony img="https://reviews.tn/wp-content/uploads/2021/05/original-profile-picture-ideas-man_31.jpg" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Testimony img="https://reviews.tn/wp-content/uploads/2021/05/original-profile-picture-ideas-man_31.jpg" />
-          </SwiperSlide>
-        </Swiper>
-      </section>
+      <div></div>
+      // <section id="testimony" className="container container__testimonials">
+      //   <h1 className="container">What People Say About Us</h1>
+      //   <Swiper
+      //     className="testimonials__slide container"
+      //     slidesPerView={this.state.slidesPerView}
+      //     spaceBetween={20}
+      //   >
+      //     <SwiperSlide>
+      //       <Testimony img="https://reviews.tn/wp-content/uploads/2021/05/original-profile-picture-ideas-man_31.jpg" />
+      //     </SwiperSlide>
+      //     <SwiperSlide>
+      //       <Testimony img="https://reviews.tn/wp-content/uploads/2021/05/original-profile-picture-ideas-man_31.jpg" />
+      //     </SwiperSlide>
+      //     <SwiperSlide>
+      //       <Testimony img="https://reviews.tn/wp-content/uploads/2021/05/original-profile-picture-ideas-man_31.jpg" />
+      //     </SwiperSlide>
+      //     <SwiperSlide>
+      //       <Testimony img="https://reviews.tn/wp-content/uploads/2021/05/original-profile-picture-ideas-man_31.jpg" />
+      //     </SwiperSlide>
+      //   </Swiper>
+      // </section>
     );
   }
 }

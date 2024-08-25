@@ -5,6 +5,8 @@ import kabba from "../../assets/kabba.png";
 import edl from "../../assets/edl.png"; 
 import gojo from "../../assets/gojo.png";
 import drummroll from "../../assets/drummroll.png";
+import cooklikeme from "../../assets/cooklikeme.png";
+import emebet from "../../assets/emebet.png";
 class Portfolio extends Component {
   constructor() {
     super();
@@ -30,9 +32,14 @@ class Portfolio extends Component {
         text: "Drumm Roll is a transportation app by Drumm Farm Center for Children, providing safe and convenient transportation for young adults experiencing homelessness. The user-friendly app allows independent booking of essential appointments, empowering youth with responsibility. Volunteer drivers ensure reliable and cost-effective transportation for school, medical appointments, and more.",
       },
       {
-        img: "https://i.pinimg.com/originals/56/ae/76/56ae76f7bc1b3e0edc962cea1af7035f.png",
+        img: cooklikeme,
         title: "Cook Like Me",
         text: "CookLikeMe brings the excitement of culinary creation to your smartphone. Modeled after the dynamic, short-form video approach of TikTok, this app allows users to share and discover quick cooking videos that inspire kitchen creativity. Whether you're a novice or a seasoned chef, CookLikeMe connects you with easy-to-follow recipes and cooking tips, making delicious dining an accessible adventure for everyone.",
+      },
+      {
+        img: emebet,
+        title: "Emebet",
+        text: "Emebet is a web and mobile based platform that record and store employers’ and employee’s information remotely. So, the platform provides information to employers about employees personal information, education, experience and work history, so that employers can make an educated and informed hiring decision. Emebet also reaches out to females with an academic background and who are looking for full time and part-time jobs to support their financial needs.",
       },
     ];
   }
