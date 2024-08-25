@@ -10,17 +10,17 @@ class Links extends Component {
       "portfolio",
       "testimony",
       // "news",
-      "contact"
+      "contact",
     ];
     this.state = {
-      linksVisibility: false
+      linksVisibility: false,
     };
     this.toggleVisibility = this.toggleVisibility.bind(this);
   }
   toggleVisibility() {
     this.setState((lastState) => {
       return {
-        linksVisibility: !this.state.linksVisibility
+        linksVisibility: !this.state.linksVisibility,
       };
     });
   }

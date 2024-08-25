@@ -8,7 +8,7 @@ class Footer extends Component {
     return (
       <footer id="contact" className="container footer__container">
         <div className="about">
-          <h3>HIGA</h3>
+          <h3>Hika Technologies PLC</h3>
           <p className="text">
             Highlighting our IT company's tailored solutions, we specialize in
             leveraging cutting-edge technologies like AI and cloud computing to
